@@ -1,0 +1,63 @@
+:root{
+    --branca: #fff;
+    --cinza: #F2F2F2;
+    --cor-texto: #848484;
+    --verdeescuro: var(#1e6b4e);
+}
+
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    background: var(--cinza);
+}
+
+
+header{background: var(--branca); padding-top: 30px;
+    padding-bottom: 150px;}
+main{padding: 30px}
+.container{padding-top: 50px;}
+
+
+.titulo{font-family: 'Montserrat', sans-serif; color: #0b2a1e; font-size: 55px; line-height:67px; font-weight: 700; margin-top: 70px}
+
+.hero{margin-top: 80px}
+.hero p{color: var(--cor-texto); margin-top: 10px;}
+.hero img{height: 70px;}
+
+.menores{display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;}
+
+
+.picks .titulo{margin-bottom: 50px;}
+.picks .vaso{background: var(--branca); border-radius: 5px; padding: 40px; margin-top: 30px;}
+.picks .vaso .img-fluid{margin: 10px auto; display: block; height: 180px;}
+
+
+    
+.picks .vaso .titulosPlantas, .picks .vaso .price{font-family: "Montserrat", sans-serif; font-weight:700; font-size:18px; line-height: 28px; color: var(--verdeescuro);}
+
+.top{    width: 100%;
+    border: 3px solid #1e6b4e;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    margin: 70px 0;
+    color: #1e6b4e;
+    text-decoration: none; transition: .5s;}
+
+.top img{margin-right: 10px; }
+.top:hover{text-decoration: none; color: #fff; background: #2a946c;}
+
+select{display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding-top: 10px;
+    text-indent: 20px;
+    padding-bottom: 10px; margin-bottom: 40px;}
